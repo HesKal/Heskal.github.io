@@ -23,7 +23,7 @@ My core focus is on leveraging data to solve real-world problems. Below are some
 Beyond my core focus on data, I enjoy exploring other areas of technology. Here are some analyses I've written on software design and cybersecurity.
 
 
-### 📄 [Case Study: Designing a COVID-19 Response System for DHA](_posts/2025-12-07-dha-covid-response-system-case-study.md)
+### 📄 [Case Study: Designing a COVID-19 Response System for DHA](https://heskal.github.io/2025-12-07-dha-covid-response-system-case-study.md)
 *An in-depth look at the systems analysis and design process for a critical healthcare application. This study covers everything from feasibility analysis to UML diagrams and software architecture.*
   
 
