@@ -28,3 +28,4 @@ Here are some of the projects and analyses I've worked on. Each one tells a stor
 ---
 
 *More projects and articles coming soon!*
+
