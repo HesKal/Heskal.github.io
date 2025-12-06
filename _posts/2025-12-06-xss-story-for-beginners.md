@@ -5,7 +5,7 @@ title: "How I Hacked a Website (Legally) in 5 Minutes: An XSS Story for Beginner
 
 Have you ever wondered how websites get hacked? You might imagine a complex process requiring genius-level skills, but sometimes, all it takes is a simple mistake that a developer overlooked.
 
-In this article, I'll take you on a short, step-by-step journey. We'll play the role of security detectives and discover one of the most common web vulnerabilities out there: **Cross-Site Scripting (XSS)**. We'll see how a few simple words in a search box can unlock a website's front door.
+In this article, I'll take you on a short, step-by-step journey. We'll use a well-known, open-source test application called **Altoro Mutual**, which is intentionally designed to be vulnerable, to demonstrate a real-world attack in a safe and ethical environment.
 
 ---
 
@@ -32,6 +32,8 @@ Normally, the website should search for this strange phrase. But something surpr
 **What does this mean?**
 It means the website didn't see `<B>` and `</B>` as part of the search term. It saw them as a **command** to make the text bold. It obeyed the command without question. This is our first major red flag. **The website can't tell the difference between plain text and commands (HTML code).**
 
+![Screenshot of the bold text result](./assets/images/step1-html-injection.png)
+
 #### Step 2: "Will You Obey My Commands?" (The JavaScript Injection Test)
 
 Now that we know the website obeys simple commands, let's try a more powerful one. JavaScript is the language that makes websites interactive. What if we give it a command in that language?
@@ -44,6 +46,8 @@ A pop-up box appeared on the screen with the message "You have been hacked!".
 **What does this mean?**
 It means we are no longer just controlling how text *looks*; we are now controlling how the website *behaves*. We can run any code we want on the browsers of other visitors. We've gone from being a "visitor" to being a "manager" of the page.
 
+![Screenshot of the pop-up alert](./assets/images/step2-javascript-alert.png)
+
 #### Step 3: Stealing the Crown Jewels (The Cookie Theft Test)
 
 What's the most valuable thing to steal from a user's browser? Their **session cookies**. Think of a cookie as the digital key that keeps you logged into your account. If we steal it, we can get into your account.
@@ -52,6 +56,8 @@ I wrote a simple script to grab this key: `<script>alert(document.cookie)</scrip
 
 **The result? The key is ours!**
 A pop-up appeared, showing a long string of text and numbers. This is the user's session key. An attacker could now send this key to themselves and use it to impersonate the user completely.
+
+![Screenshot of the cookie theft result](./assets/images/step3-cookie-theft.png)
 
 ---
 
