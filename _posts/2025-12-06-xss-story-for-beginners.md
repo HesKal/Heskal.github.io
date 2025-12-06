@@ -1,4 +1,4 @@
----
+<img width="556" height="221" alt="image" src="https://github.com/user-attachments/assets/d43c1b42-41d9-45fd-a96f-644cbc188ff0" />---
 layout: default
 title: "How I Hacked a Website (Legally) in 5 Minutes: An XSS Story for Beginners"
 ---
@@ -32,7 +32,7 @@ Normally, the website should search for this strange phrase. But something surpr
 **What does this mean?**
 It means the website didn't see `<B>` and `</B>` as part of the search term. It saw them as a **command** to make the text bold. It obeyed the command without question. This is our first major red flag. **The website can't tell the difference between plain text and commands (HTML code).**
 
-![Screenshot of the bold text result](./assets/images/step1-html-injection.png)
+![Screenshot of the bold text result](https://github.com/HesKal/Heskal.github.io/blob/main/assets/images/step1-html-injection.png)
 
 #### Step 2: "Will You Obey My Commands?" (The JavaScript Injection Test)
 
@@ -46,7 +46,7 @@ A pop-up box appeared on the screen with the message "You have been hacked!".
 **What does this mean?**
 It means we are no longer just controlling how text *looks*; we are now controlling how the website *behaves*. We can run any code we want on the browsers of other visitors. We've gone from being a "visitor" to being a "manager" of the page.
 
-![Screenshot of the pop-up alert](./assets/images/step2-javascript-alert.png)
+![Screenshot of the pop-up alert](https://github.com/HesKal/Heskal.github.io/blob/main/assets/images/step2-javascript-alert.png?raw=true)
 
 #### Step 3: Stealing the Crown Jewels (The Cookie Theft Test)
 
@@ -57,7 +57,7 @@ I wrote a simple script to grab this key: `<script>alert(document.cookie)</scrip
 **The result? The key is ours!**
 A pop-up appeared, showing a long string of text and numbers. This is the user's session key. An attacker could now send this key to themselves and use it to impersonate the user completely.
 
-![Screenshot of the cookie theft result](./assets/images/step3-cookie-theft.png)
+![Screenshot of the cookie theft result](https://github.com/HesKal/Heskal.github.io/blob/main/assets/images/step3-cookie-theft.png?raw=true)
 
 ---
 
