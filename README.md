@@ -22,7 +22,8 @@ My core focus is on leveraging data to solve real-world problems. Below are some
 
 Beyond my core focus on data, I enjoy exploring other areas of technology. Here are some analyses I've written on software design and cybersecurity.
 
-### 📄 [Case Study: Designing a COVID-19 Response System for DHA](https://heskal.github.io/2025/12/07/dha-covid-response-system-case-study.html )
+
+### 📄 [Case Study: Designing a COVID-19 Response System for DHA](https://heskal.github.io/2025/12/07/dha-covid-response-system-case-study )
 *An in-depth look at the systems analysis and design process for a critical healthcare application. This study covers everything from feasibility analysis to UML diagrams and software architecture.*
   
 
@@ -30,12 +31,13 @@ Beyond my core focus on data, I enjoy exploring other areas of technology. Here 
 
 ---
 
-### 📄 [A Beginner's Guide to Understanding (and Preventing) Cross-Site Scripting (XSS)](https://heskal.github.io/2025/12/06/xss-story-for-beginners.html )
+### 📄 [A Beginner's Guide to Understanding (and Preventing) Cross-Site Scripting (XSS)](https://heskal.github.io/2025/12/06/xss-story-for-beginners )
 *A hands-on exploration of a common web vulnerability. This article breaks down what XSS is, how to test for it, and most importantly, how to defend against it, all explained in a simple, beginner-friendly way.*
   
 
 **Skills Showcased:** Cybersecurity Fundamentals, Web Security, Technical Writing.
 
+---
 ---
 
 
