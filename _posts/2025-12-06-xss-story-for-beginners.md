@@ -1,4 +1,3 @@
-<img width="556" height="221" alt="image" src="https://github.com/user-attachments/assets/d43c1b42-41d9-45fd-a96f-644cbc188ff0" />---
 layout: default
 title: "How I Hacked a Website (Legally) in 5 Minutes: An XSS Story for Beginners"
 ---
